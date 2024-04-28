@@ -1,0 +1,16 @@
+#generate list with duplicate integers
+list_with_duplicate_int = [10, 20, 30, 20, 20, 30, 40, 50, -20, 60, 60, -20, -20]
+print(list_with_duplicate_int)
+
+#define lists to seperate from original list
+new_list = []
+duplicate_list = []
+
+#for loop
+for i in list_with_duplicate_int:
+    if i not in new_list:
+        new_list.append(i)
+    elif i not in duplicate_list:
+        duplicate_list.append(i)
+
+print("This is a list with duplicate integers: ", duplicate_list)

@@ -1,0 +1,12 @@
+#just a "tupple" of foods
+my_foods = ('pizza', 'chicken', 'rice', 'hotdog', 'hamburger')
+
+print("This restaurant offers these foods: ")
+for food in my_foods:
+    print("- " + food)
+
+#menu change
+my_foods = ('Thai-food', 'chicken', 'teriyaki', 'curry', 'ice-cream')
+print("\nMenu update:")
+for food in my_foods:
+    print("- " + food)

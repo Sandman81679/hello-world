@@ -1,0 +1,28 @@
+#original people invited to dinner
+list_guests = ['Mia', 'Lucas', 'Zachary']
+print(list_guests)
+
+#replaced guest with new guest
+del(list_guests[0])
+list_guests.insert(0, 'Jen')
+print(list_guests)
+
+#add one new guest to beginning of list, middle of list, and end of list
+list_guests.insert(0, 'Mom')
+list_guests.insert(2, 'Dad')
+list_guests.append('Sister')
+print(list_guests)
+
+#remove guests with pop sequence
+name = list_guests.pop()
+print("Sorry sister, I cant invite you to dinner.")
+print(list_guests)
+name = list_guests.pop(0)
+print("Sorry mom, I cant invite you to dinner.")
+print(list_guests)
+name = list_guests.pop(1)
+print("Sorry dad, I cant invite you to dinner.")
+print(list_guests)
+name = list_guests.pop(0)
+print("Sorry Jen, I cant invite you to dinner.")
+print(list_guests)

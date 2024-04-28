@@ -1,0 +1,9 @@
+#sorting tupples
+tuple1 = [('452', 10), ('256', 5), ('100', 20), ('135', 15)]
+print(tuple1)
+
+def Sort(tuple1):
+    tuple1.sort(key = lambda a: a[1])
+    return tuple1
+
+print(Sort(tuple1))

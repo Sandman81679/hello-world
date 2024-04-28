@@ -1,0 +1,16 @@
+#my animals
+animals = ['gorilla', 'dog', 'cat', 'lion', 'hippo', 'elephant', 'giraffe']
+for i in animals:
+    print(i)
+
+#first three animals
+my_animals = animals[0:3]
+print("The first three animals in the list are: ", my_animals)
+
+#middle animals
+my_animals = animals[2:5]
+print("The middle three animals in the list are: ", my_animals)
+
+#last three animals
+my_animals = animals[4:7]
+print("The last three animals in the list are: ", my_animals)
